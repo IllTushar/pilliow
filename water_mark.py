@@ -59,8 +59,8 @@ def add_watermark_with_logo(input_image_path, output_image_path, watermark_text,
 
 if __name__ == '__main__':
     # Example
-    input_image_path = r"C:\Users\gtush\Desktop\SayaCsv\FirebaseStorage\FirebaseDownloadedImages\45\66\2.webp"
-    destination_path = r"C:\Users\gtush\Desktop\water_mark_image\output_image9.png"
+    input_image_path = r"C:\Users\gtush\Desktop\SayaCsv\FirebaseStorage\FirebaseDownloadedImages\33\44\1.webp"
+    destination_path = r"C:\Users\gtush\Desktop\water_mark_image\output_image10.png"
     water_mark_text = "SayaCare"
     add_watermark_with_logo(input_image_path, destination_path, water_mark_text,
                             r"C:\Users\gtush\Desktop\water_mark_image\Logo_Grayscale.png")
