@@ -4,6 +4,8 @@ from PIL import Image, ImageFont, ImageDraw
 def add_watermark_with_logo(input_image_path, output_image_path, watermark_text, logo_path):
     # Open the input image
     image = Image.open(input_image_path)
+
+    # resize image
     resize_image = image.resize((1000, 1200))
 
     # Create a drawing context
